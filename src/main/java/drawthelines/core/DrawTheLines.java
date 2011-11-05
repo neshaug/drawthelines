@@ -99,7 +99,7 @@ public class DrawTheLines implements Game, Pointer.Listener {
 
                 // this image is cached by the browser
                 final Image bgImage =
-                        assetManager().getImage("images/background.png");
+                        assetManager().getImage("images/background.jpg");
 
                 backgroundLayer.canvas().clear();
                 backgroundLayer.canvas().drawImage(bgImage, 0, 0,

@@ -43,7 +43,7 @@ public class DrawTheLinesLoader {
                         assetManager().getSound("sounds/ams-nitten"),
                         assetManager().getSound("sounds/ams-tjue")};
         
-        assetManager().getImage("images/background.png");
+        assetManager().getImage("images/background.jpg");
 
         final AssetWatcher assetWatcher =
                 new AssetWatcher(new AssetWatcher.Listener() {
