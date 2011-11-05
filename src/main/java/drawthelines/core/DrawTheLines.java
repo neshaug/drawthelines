@@ -53,8 +53,8 @@ public class DrawTheLines implements Game, Pointer.Listener {
 
     private void nextLevel() {
         if (currentLevel != null) {
-            graphics().rootLayer().remove(currentLevel.getSurfaceLayer());
             currentLevel.reset();
+            graphics().rootLayer().remove(currentLevel.getSurfaceLayer());
         }
 
         currentLevel = levels.get(levelCounter);
@@ -68,8 +68,8 @@ public class DrawTheLines implements Game, Pointer.Listener {
 
     private void previousLevel() {
         if (currentLevel != null) {
-            graphics().rootLayer().remove(currentLevel.getSurfaceLayer());
             currentLevel.reset();
+            graphics().rootLayer().remove(currentLevel.getSurfaceLayer());
         }
         currentLevel = levels.get(levelCounter);
         if (levelCounter == 0) {
